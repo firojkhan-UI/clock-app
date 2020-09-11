@@ -8,10 +8,17 @@ class App extends Component {
     return (
       <div className="App">
           <Clock
-            // title = {}
+            title = {'BST'}
+            timeDiff = {+4.5}
           />
-          <Clock/>
-          <Clock/>
+          <Clock
+           title= {'EDT'}
+           timeDif= {+9.5}
+          />
+          <Clock
+          title={'UTC'}
+          timeDiff={+5.5}
+          />
       </div>
     );
   }
